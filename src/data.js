@@ -22,6 +22,14 @@ const data = {
   },
   projects: [
     {
+      title: 'ResumeForge',
+      description:
+        'An interactive resume builder with a live preview. Type your details on the left and watch your resume update instantly on the right — then download it as a polished PDF. Includes 4 layout templates, 6 accent themes, and dynamic sections.',
+      stack: ['React', 'JavaScript', 'CSS'],
+      demo: 'https://erasim.github.io/resume_maker/',
+      code: 'https://github.com/erasim/resume_maker',
+    },
+    {
       title: 'Movie Booking',
       description:
         'A seat-booking app that loads a live movie catalog from a REST API, lets users pick a movie and reserve multiple seats, then confirms the booking with validated contact details.',
