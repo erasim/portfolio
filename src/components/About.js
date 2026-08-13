@@ -22,7 +22,13 @@ function About() {
               <span>Role</span>
             </div>
             <div className="fact-card">
-              <a href={data.resumeUrl} className="btn btn-outline btn-small">
+              <a
+                href={data.resumeUrl}
+                className="btn btn-outline btn-small"
+                download="Asim-Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Download Resume
               </a>
             </div>

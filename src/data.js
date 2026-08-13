@@ -6,7 +6,7 @@ const data = {
   email: 'asimhasnain96@gmail.com',
   whatsapp: '919555514552',
   location: 'Bareilly (U.P), India',
-  resumeUrl: '#',
+  resumeUrl: process.env.PUBLIC_URL + '/Asim-Resume.pdf',
   social: {
     github: 'https://github.com/erasim',
     linkedin: 'https://www.linkedin.com/in/asimhasnain/',
@@ -21,6 +21,14 @@ const data = {
     tools: ['Git & GitHub', 'Vite', 'Webpack', 'Jest', 'Storybook', 'Figma'],
   },
   projects: [
+    {
+      title: 'Sainthal.in',
+      description:
+        'A live, production website built with a modern JavaScript stack. It serves as a dynamic web experience with interactive, client-side rendered content and a clean, responsive layout designed for a smooth experience across all devices.',
+      stack: ['React', 'JavaScript', 'HTML', 'CSS'],
+      demo: 'http://sainthal.in/',
+      code: '#',
+    },
     {
       title: 'ResumeForge',
       description:
